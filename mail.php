@@ -11,7 +11,7 @@
  $mes = "Тема: Замовлення зворотного дзвінка!\nТелефон: $phone\nІмя: $name\nEmail: $email";
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */
-$sub='info@site.ru'; //сабж
+$sub='tracker.gigamax@gmail.com'; //сабж
 $email='Замовлення з сайту Videobezpeka'; // от кого
 $send = mail ($address,$email,$mes,"Content-type:text/plain; charset = utf-8\r\nFrom:$sub");
 
