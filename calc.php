@@ -12,14 +12,14 @@
   if (isset($_POST['sys_montag'])) {$sys_montag = $_POST['sys_montag'];}
 
 /* Сюда впишите свою эл. почту */
- $address = "info@ae6.ru";
+ $address = "tracker.gigamax@gmail.com";
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
- $mes = "Тема: Заказ обратного звонка!\nТелефон: $phone\nИмя: $name\nСкрытые камеры: $hid_cam\nУличные камеры: $out_cam\nВнутренние камеры: $inn_cam\nПоворотные камеры: $rot_cam\nТип системы: $sys_type\nТип видео: $vid_type\nАрхив записи: $rec_archive\nАрхив записи: $sys_montag";
+ $mes = "Тема: Замовлення зворотного дзвінка!\nТелефон: $phone\nІмя: $name\nПриховані камери: $hid_cam\nВуличні камери: $out_cam\nВнутрішні камери: $inn_cam\nПоворотні камери: $rot_cam\nТип системи: $sys_type\nТип відео: $vid_type\nАрхів записи: $rec_archive\nАрхив записи: $sys_montag";
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */
-$sub='info@ae6.ru'; //сабж
-$email='Заказ с сайта Шаблон №26'; // от кого
+$sub='info@site.ru'; //сабж
+$email='Замовлення з сайту Videobezpeka'; // от кого
 $send = mail ($address,$email,$mes,"Content-type:text/plain; charset = utf-8\r\nFrom:$sub");
 
 ini_set('short_open_tag', 'On');
