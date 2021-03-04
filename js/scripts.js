@@ -181,7 +181,7 @@ $(document).ready(function(){
 	
 	$('input, textarea').placeholder();
 	
-	$("input[name='phone']").mask("+7 (999) 999-99-99");
+	$("input[name='phone']").mask("+38 (999) 999-99-99");
 	
 	$(".inputBox").inputBox({add: 1, min: 0, max: 99});
 	
