@@ -1,0 +1,127 @@
+	.headinfo .logo {
+		background: url(../storage/224bdd51b392f0db237c9b5fb2dcccad.png)top left no-repeat;
+	}
+	.logo {
+		background: url(../storage/224bdd51b392f0db237c9b5fb2dcccad.png)top left no-repeat;
+	}
+	.ya1 {
+		background-image: url(../storage/60519a4812452138f178283c1fca9529.png);
+	}
+	.ya2 {
+		background-image: url(../storage/d65223a4e7c9733a6a46839a17b5bc6a.png);
+	}
+	.ya3 {
+		background-image: url(../storage/8b121eb8dd84890a0668f00f6cf173e7.png);
+	}
+	.ya4 {
+		background-image: url(../storage/7e23ae22499fd2c3c76c06559e250f2d.png);
+	}
+	.ya5 {
+		background-image: url(../storage/4f5b92eb2c994dd593ba93594cc19965.png);
+	}
+	.ya6 {
+		background-image: url(../storage/f9ffda16e0f964db4caec07e3273747d.png);
+	}
+	.why1 {
+		background-image: url(../storage/2302482faab5aa34c6dfac0c17de5fe4.png);
+	}
+	.why2 {
+		background-image: url(../storage/2302482faab5aa34c6dfac0c17de5fe4.png);
+	}
+	.why3 {
+		background-image: url(../storage/2302482faab5aa34c6dfac0c17de5fe4.png);
+	}
+	.why4 {
+		background-image: url(../storage/f30a947c5d5a4e3f1ef157fefa6cb988.png);
+	}
+	.why5 {
+		background-image: url(../storage/f30a947c5d5a4e3f1ef157fefa6cb988.png);
+	}
+	.why6 {
+		background-image: url(../storage/f30a947c5d5a4e3f1ef157fefa6cb988.png);
+	}
+	.why7 {
+		background-image: url(../storage/cbde9a21ada8cee81af84fce3a12e273.png);
+	}
+	.why8 {
+		background-image: url(../storage/cbde9a21ada8cee81af84fce3a12e273.png);
+	}
+	.why9 {
+		background-image: url(../storage/cbde9a21ada8cee81af84fce3a12e273.png);
+	}
+	.why10 {
+		background-image: url(../storage/b662c368e704075ddfe6e70dc327a62a.png);
+	}
+	.why11 {
+		background-image: url(../storage/b662c368e704075ddfe6e70dc327a62a.png);
+	}
+	.why12 {
+		background-image: url(../storage/b662c368e704075ddfe6e70dc327a62a.png);
+	}
+	.why13 {
+		background-image: url(../storage/6f0b21cff26ab54699018c874f393644.png);
+	}
+	.why14 {
+		background-image: url(../storage/6f0b21cff26ab54699018c874f393644.png);
+	}
+	.why15 {
+		background-image: url(../storage/6f0b21cff26ab54699018c874f393644.png);
+	}
+	.why16 {
+		background-image: url(../storage/479de4173269cdc1de32f148dee69c51.png);
+	}
+	.why17 {
+		background-image: url(../storage/479de4173269cdc1de32f148dee69c51.png);
+	}
+	.why18 {
+		background-image: url(../storage/479de4173269cdc1de32f148dee69c51.png);
+	}
+	.why19 {
+		background-image: url(../storage/44c3a9584238a4a4348d30441ea7b340.png);
+	}
+	.why20 {
+		background-image: url(../storage/44c3a9584238a4a4348d30441ea7b340.png);
+	}
+	.why21 {
+		background-image: url(../storage/44c3a9584238a4a4348d30441ea7b340.png);
+	}
+	.why22 {
+		background-image: url(../storage/1d224fb3f38992555481447ddad337b4.png);
+	}
+	.why23 {
+		background-image: url(../storage/1d224fb3f38992555481447ddad337b4.png);
+	}
+	.why24 {
+		background-image: url(../storage/1d224fb3f38992555481447ddad337b4.png);
+	}
+	li.bespl1 {
+		background-image: url(../images/img/bes1.png);
+		background-position: center top;
+	}
+	li.bespl2 {
+		background-image: url(../images/img/bes2.png);
+		background-position: center top;
+	}
+	li.bespl3 {
+		background-image: url(../images/img/bes3.png);
+		background-position: center top;
+	}
+	li.bespl4 {
+		background-image: url(../images/img/bes4.png);
+		background-position: center top;
+	}
+	li.bespl5 {
+		background-image: url(../images/img/bes5.png);
+		background-position: center top;
+	}
+	.okno-timer {
+		background: url(../storage/f8e503456349a914c06283705a7ef09e.png) no-repeat center 0;
+	}
+@media (max-width: 767px) {
+	.headinfo .logo {
+		background: url(../storage/224bdd51b392f0db237c9b5fb2dcccad.png)top center no-repeat;
+	}
+	.logo {
+		background: url(../storage/224bdd51b392f0db237c9b5fb2dcccad.png)top center no-repeat;
+	}
+}
