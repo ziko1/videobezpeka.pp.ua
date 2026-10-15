@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "policy_id": "UPS-100",
+  "status": "UNMEASURED",
+  "project_id": "videobezpeka-pp-ua",
+  "repository": "ziko1/videobezpeka.pp.ua",
+  "environment": "NOT_MEASURED",
+  "commit_sha": null,
+  "artifact_sha256": null,
+  "run_at_utc": null,
+  "device": null,
+  "network_profile": null,
+  "cache_mode": null,
+  "sample_count": 0,
+  "journeys": [
+    {
+      "id": "UI-A",
+      "class": "A",
+      "operation": "CRITICAL_USER_ACTION_TO_IDENTIFY",
+      "sli": "action_to_first_meaningful_paint_ms",
+      "threshold_type": "internal_hard_target",
+      "target": {
+        "p95_lte_ms": 100
+      },
+      "measurement_source": null,
+      "sample_count": 0,
+      "observed": {
+        "p50": null,
+        "p75": null,
+        "p95": null,
+        "p99": null,
+        "max": null
+      },
+      "result": "NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "WEB-INP",
+      "class": "A",
+      "operation": "PUBLIC_WEB_USER_INTERACTION_TO_IDENTIFY",
+      "sli": "INP_ms",
+      "threshold_type": "official_good_with_stricter_internal_target",
+      "target": {
+        "official_p75_lte_ms": 200,
+        "internal_p75_lte_ms": 100
+      },
+      "measurement_source": null,
+      "sample_count": 0,
+      "observed": {
+        "p50": null,
+        "p75": null,
+        "p95": null,
+        "p99": null,
+        "max": null
+      },
+      "result": "NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "WEB-LCP",
+      "class": "C2",
+      "operation": "PUBLIC_WEB_LARGEST_CONTENTFUL_PAINT_TO_IDENTIFY",
+      "sli": "LCP_ms",
+      "threshold_type": "official_good_with_stricter_internal_target",
+      "target": {
+        "official_p75_lte_ms": 2500,
+        "internal_p75_lte_ms": 1800
+      },
+      "measurement_source": null,
+      "sample_count": 0,
+      "observed": {
+        "p50": null,
+        "p75": null,
+        "p95": null,
+        "p99": null,
+        "max": null
+      },
+      "result": "NOT_RUN",
+      "evidence": null
+    },
+    {
+      "id": "WEB-CLS",
+      "class": "C2",
+      "operation": "PUBLIC_WEB_LAYOUT_SHIFT_TO_IDENTIFY",
+      "sli": "CLS",
+      "unit": "unitless",
+      "threshold_type": "official_good_with_stricter_internal_target",
+      "target": {
+        "official_p75_lte_ms": 0.1,
+        "internal_p75_lte_ms": 0.05
+      },
+      "measurement_source": null,
+      "sample_count": 0,
+      "observed": {
+        "p50": null,
+        "p75": null,
+        "p95": null,
+        "p99": null,
+        "max": null
+      },
+      "result": "NOT_RUN",
+      "evidence": null
+    }
+  ],
+  "security_review": "NOT_RUN",
+  "independent_review": "NOT_RUN",
+  "live_verified": false,
+  "device_verified": false,
+  "notes": "Placeholder journeys are discovery tasks, not proof that the route or UI exists. Expected daily gate: UNKNOWN. For Android/iOS startup, battery and frame traces, separate profilers and devices are mandatory."
+}
